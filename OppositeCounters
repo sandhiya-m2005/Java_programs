@@ -1,0 +1,14 @@
+import java.util.*;
+public class Int_loop {
+    public static void main(String[]args){
+        Scanner s=new Scanner (System.in);
+        System.out.println("Enter any no.:");
+        int a=s.nextInt();
+        int i,j;
+        for(i=499,j=1;i>j;i--,j++)
+        {
+            System.out.println(i);
+            System.out.println(j);
+        }
+    }
+}
