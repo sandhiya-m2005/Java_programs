@@ -1,0 +1,18 @@
+public class Datatypes {
+    public static void main(String[] args) {
+        boolean b=true;
+        byte h=1;
+        char c='a';
+        int a=3;
+        long l=123440l;
+        float f=1.2f;
+        double d=234.5667d;
+        System.out.println("Boolean:"+b);
+        System.out.println("Byte:"+h);
+        System.out.println("Character:"+c);
+        System.out.println("Integer:"+a);
+        System.out.println("Long:"+l);
+        System.out.println("Float:"+f);
+        System.out.println("Double:"+d);
+
+    }
