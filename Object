@@ -1,0 +1,15 @@
+class car{
+    String model;
+    int year;
+    car(String model,int year){
+        this.model=model;
+        this.year=year;
+    }
+}
+public class cls {
+    public static void main(String[] args) {
+        car c=new car("Toyota",2020);
+        System.out.println("model:"+c.model);
+        System.out.println("year:"+c.year);
+    }
+}
